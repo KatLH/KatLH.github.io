@@ -1,0 +1,53 @@
+/*--Index color palette--*/
+.grey {
+  background-color: #c1beb5;
+}
+.rust {
+  background-color: #8c3917;
+}
+.flesh {
+  background-color: #d78567;
+}
+.pink {
+  background-color: #f3b89e;
+}
+.deep-purple {
+  background-color: #3f302d;
+}
+
+.grey-text {
+  color: #c1beb5;
+}
+.rust-text {
+  color: #8c3917;
+}
+.flesh-text {
+  color: #d78567;
+}
+.pink-text {
+  color: #f3b89e;
+}
+.deep-purple-text {
+  color: #3f302d;
+}
+/*-----*/
+.light-grey {
+  background-color: #fcf9f0;
+}
+.color {
+  background-color: #cc9e7c;
+}
+.red {
+	background-color: #a92722;
+}
+
+
+
+
+
+/* Color Theme Swatches in Hex */
+.magenta { background-color: #733843; }
+.grape { background-color: #241D26; }
+.mauve { background-color: #73413D; }
+.light-pink { background-color: #D9B8B8; }
+.white { background-color: #F2F2F2; }

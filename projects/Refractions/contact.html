@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<html>
 
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,10 +13,7 @@
 </head>
 
 <body>
-	
-	<header class="header">
-
-
+	<header>
 		<nav class="navbar">
 			<span class="navbar-toggle" id="js-navbar-toggle">
 				<i class="fa fa-bars"></i>
@@ -25,7 +22,7 @@
 			<!--<p class="tagline">Look your best // Feel your best</p>-->
 			<ul class="main-nav" id="js-menu">
 				<li>
-					<a href="index.html" class="active nav-links">Home</a>
+					<a href="index.html" class="nav-links">Home</a>
 				</li>
 				<li>
 					<a href="catalog.html" class="nav-links">Catalog</a>
@@ -43,63 +40,35 @@
 				</li>
 			</ul>
 		</nav>
-		<div class="grid-1 banner flesh">
-			<div class="grid-item">
-				<p>Get 10% off your first order when you <a class="checkout" href="#">subscribe</a> to our newsletter!</p>
-			</div>
-		</div>
 	</header>
-	
-    <main>
-        <div class="grid-3 medGap">	
-            <div class="grid-item">
-                <div class="box">
-                    <h4>In order to feel your best ...</h4>
-				</div>
-			</div>
-			
-			<div class="grid-item">
-				<img class="responsive frame" src="images/home/peach_woman_SM.png"
-					alt="Woman with red lipstick looks at herself in the mirror" />
-			</div>
 
+    <main class="contact">
+        <div class="grid-1 smallGap">
             <div class="grid-item">
-                <div class="box">
-                    <h4>... you have to look your best .</h4>
-                </div>
-			</div>
+                <h3>Contact Us</h3>
+            </div>
         </div>
 
-        <div class="grid-2 larGap">
-			<div class="grid-item text-2">
-				<h3 class="index">A mirror for every occasion</h3>
-				<div class="catalogBtn">
-					<a href="catalog.html">Browse Catalog</a>
-				</div>
-			</div>
+        <div class="grid-1">
+            <div class="grid-item">
+                <form>
+                    <label for="fname">First Name:</label><br>
+                    <input type="text" name="fname"></input><br>
 
-			<div class="grid-item img-1">
-				<img class="responsive frame" src="images/home/dresser_mirrors.jpg"
-					alt="Two mirrors on top of a wooden dresser" />
-			</div>
-        </div>
+                    <label for="lname">Last Name:</label><br>
+                    <input type="text" name="lname"></input><br>
 
-        <div class="grid-2 larGap">
-			<div class="grid-item img-3">
-				<img class="responsive frame" src="images/home/flower_mirror_SM.png" alt="Two mirrors on top of a wooden dresser" />
-			</div>
-            <div class="grid-item text-4">
-                <h3 class="index">
-                    Custom mirrors to fit any <span class="caveat">style</span> or space
-                </h3>
-                <div class="customizeBtn button-6">
-                    <a href="customize.html">Start Customizing</a>
-                </div>
+                    <label for="email">Email:</label><br>
+                    <input type="text" name="email"></input><br>
+
+                    <textarea name="msg" placeholder="What would you like to say?"></textarea><br>
+                    <input type="submit" value="Submit"></input>
+                </form>
             </div>
         </div>
     </main>
 
-    <footer>
+	<footer>
 		<div class="footer-content">
 			<div class="grid-2">
 				<div class="grid-item">
@@ -114,7 +83,7 @@
 				</div>
 			</div>
 		</div>
-        
+	
 		<div class="copyright">
 			<div class="grid-1">
 				<div class="grid-item">

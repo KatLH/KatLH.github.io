@@ -2,35 +2,37 @@
   font-family: boisu;
   src: url(../fonts/boisu/Boisu-Stroke.otf);
 }
-.boisu {
-  font-family: boisu;
-}
-
-
 @font-face {
   font-family: caveat;
   src: url(../fonts/caveat/caveat-regular.ttf);
 }
+@font-face {
+  font-family: playfair;
+  src: url(../fonts/playfair-display/PlayfairDisplay-Regular.otf);
+}
+@font-face {
+  font-family: metropolis;
+  src: url(../fonts/metropolis/Metropolis-Light.otf);
+}
+@font-face {
+  font-family: metropolis;
+  font-weight: bold;
+  src: url(../fonts/metropolis/Metropolis-Medium.otf);
+}
+
+.boisu {
+  font-family: boisu;
+}
 .caveat {
   font-family: caveat;
 }
-
-
-@font-face {
-  font-family: cicle;
-  src: url(../fonts/cicle/Cicle_Semi.ttf);
+.playfair {
+  font-family: playfair;
 }
-.cicle {
-  font-family: cicle;
+.metropolis {
+  font-family: metropolis;
 }
-
-
-
-
-@font-face {
-  font-family: datalegreya;
-  src: url(../fonts/datalegreya/Datalegreya-Gradient.otf);
-}
-.datalegreya {
-  font-family: datalegreya;
+.metropolis-bold {
+  font-family: metropolis;
+  font-weight: bold;
 }
