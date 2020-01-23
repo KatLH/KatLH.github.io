@@ -1,0 +1,73 @@
+.draggable { /*width: 90px;
+  height: 80px;*/
+  padding: 5px;
+  float: left;
+  margin: 0 10px 10px 0;
+  font-size: .9em; }
+
+.ui-widget-header p,
+.ui-widget-content p { margin: 0; }
+
+/*#snaptarget {
+  height: 479px;
+  width: 900px;
+  background-image: url("../img/poster/poster_bg/magiccourt4_MD.png");
+  background-repeat: no-repeat;
+}*/
+
+.draggable {
+  filter: alpha(opacity=100);
+  opacity: 1.0;
+  z-index: 100;
+  transition: none !important;
+  animation: pulse 0.4s alternate infinite;
+}
+
+.end-draggable {
+  animation: 0;
+}
+
+.dropped {
+  position: static !important;
+  transition: none !important;
+  animation: 0;
+}
+
+#dragIcons {
+  padding: 5px;
+  min-height: 100px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#briefcase {
+  height: 250px;
+  width: 250px;
+  background: url("http://icons.iconarchive.com/icons/mcdo-design/smooth-leopard/256/Upload-Folder-Blue-icon.png");
+  background-position: absolute;
+  background-repeat: no-repeat;
+}
+
+#briefcase-open {
+  height: 250px;
+  width: 250px;
+  margin-left: 300px;
+  background: url("https://cdn0.iconfinder.com/data/icons/snow_sabre_silver/512/folder_web_upload.png");
+  background-position: absolute;
+  background-repeat: no-repeat;
+}
+#briefcase-droppable {
+  border-style: solid;
+  height: 300px;
+  width: 300px;
+}
+
+@keyframes pulse {
+  100% {
+    transform: scale(1.1);
+  }
+}
+#reset {
+  margin-left: 400px;
+}

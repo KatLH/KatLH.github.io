@@ -1,0 +1,36 @@
+@font-face {
+  font-family: boisu;
+  src: url(../fonts/boisu/Boisu-Stroke.otf);
+}
+.boisu {
+  font-family: boisu;
+}
+
+
+@font-face {
+  font-family: caveat;
+  src: url(../fonts/caveat/caveat-regular.ttf);
+}
+.caveat {
+  font-family: caveat;
+}
+
+
+@font-face {
+  font-family: cicle;
+  src: url(../fonts/cicle/Cicle_Semi.ttf);
+}
+.cicle {
+  font-family: cicle;
+}
+
+
+
+
+@font-face {
+  font-family: datalegreya;
+  src: url(../fonts/datalegreya/Datalegreya-Gradient.otf);
+}
+.datalegreya {
+  font-family: datalegreya;
+}

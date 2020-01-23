@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>Create Your Own Magic Poster</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--Import jQuery UI CSS from Google-->
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+	<!--Import Google Icon Font-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!--Import materialize.css-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<!--Import main stylesheet -->
+	<link rel="stylesheet" href="css/main.css">
+	<!--Import CSS styling for the Poster-->
+	<link rel="stylesheet" href="css/poster.css">
+	<!--JavaScript-->
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	<script src="js/poster.js" type="text/javascript"></script>
+	<script src="js/main.js" type="text/javascript"></script>
+
+</head>
+
+<header>
+	<nav class="hide-on-med-and-down">
+		<div class="nav-wrapper indigo darken-4">
+			<div class="container">
+				<a href="index.html" class="brand-logo">
+					<h1>Orlando Magic 8 Ball</h1>
+				</a>
+
+				<ul class="right hide-on-med-and-down">
+					<li><a href="stats.html">
+							<h4>MAGIC STATS</h4>
+						</a></li>
+					<li class="active"><a href="poster.html">
+							<h4>POSTER CREATOR</h4>
+						</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<a href="#" data-target="mobile-demo" class="top-left sidenav-trigger hide-on-large-only navbar-fixed"><i
+			class="medium material-icons icon-white indigo darken-3">menu</i></a>
+
+	<div class="line grey lighten-2 hide-on-med-and-down"></div>
+
+
+	<ul class="sidenav" id="mobile-demo">
+		<li><a href="index.html">HOME</a></li>
+		<li><a href="stats.html">MAGIC STATS</a></li>
+		<li class="active"><a href="poster.html">POSTER CREATOR</a></li>
+	</ul>
+</header>
+
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col s12 m8">
+				<h2 class="center-align">Magic Home Court Advantage!</h2>
+
+				<div id="printsection">
+						<!--<p>I'm a snap target</p>-->
+						<img id="snaptargetphoto" class="ui-widget-header"
+							src="img/poster/poster_bg/magiccourt4_MD.png"
+							srcset="img/poster/poster_bg/magiccourt4_MD.png 1250w,
+							img/poster/poster_bg/magiccourt4_MD2.png 500w,
+							img/poster/poster_bg/magiccourt4_SM.png 300w,"
+							sizes=100%
+							alt="Magic Court Poster Background">
+
+					<br style="clear:both">
+
+					<!--<p>DIV holding all of the images that are supposed to be draggable.</p>-->
+
+					<div id="image-bank">
+						<img id="draggable4" class="draggable"
+							src="img/poster/draggable/tmac.png"
+							srcset="img/poster/draggable/tmac100.png 1500w,
+							img/poster/draggable/tmac50.png 500w,
+							img/poster/draggable/tmac20.png 300w,"
+							sizes=100%
+							alt="Tracy McGrady draggable">
+						<img id="draggable5" class="draggable"
+							src="img/poster/draggable/jonathanisaac2.png"
+							srcset="img/poster/draggable/jonathanisaac2100.png 1500w,
+							img/poster/draggable/jonathanisaac250.png 500w,
+							img/poster/draggable/jonathanisaac225.png 300w,"
+							sizes=100%
+							alt="Jonathan Isaac draggable">
+						<img id="draggable6" class="draggable"
+							src="img/poster/draggable/dwighthowarddunk.png"
+							srcset="img/poster/draggable/dwighthowarddunk100.png 1500w,
+							img/poster/draggable/dwighthowarddunk50.png 500w,
+							img/poster/draggable/dwighthowarddunk25.png 300w,"
+							sizes=100%
+							alt="Dwight Howard draggable">
+						<img id="draggable7" class="draggable"
+							src="img/poster/draggable/magicteamlogo.png"
+							srcset="img/poster/draggable/magicteamlogo100.png 1500w,
+							img/poster/draggable/magicteamlogo50.png 500w,
+							img/poster/draggable/magicteamlogo20.PNG 300w,"
+							sizes=100%
+							alt="Magic Team Logo draggable">
+						<img id="draggable8" class="draggable"
+							src="img/poster/draggable/logo.png"
+							srcset="img/poster/draggable/logo100.png 1500w,
+							img/poster/draggable/logo50.png 500w,
+							img/poster/draggable/logo25.png 300w,"
+							sizes=100%
+							alt="Magic 8 Ball Logo draggable">
+					</div>
+				</div>
+				<br>
+				<!--Button to print-->
+				<input class="magicBlue btn waves-effect waves-light" type="button" onclick="printDiv('printsection')"
+					value="Print Your Poster!" />
+				<br></br><br></br>
+			</div>
+
+			<div class="col s12 m2 offset-m2">
+				<br><br>
+				<!--Share Button Icons-->
+				<div id="social-icons">
+					<h5>Share Your Poster </h5>
+					<a href="https://mail.google.com/"><img id="socialicon1" width="25px" height="25px"
+							src="img/socialicons/email.png" href="https://mail.google.com/"></a>
+					<a href="http://www.facebook.com/"><img id="socialicon2" width="25px" height="25px"
+							src="img/socialicons/facebook.png" href="http://www.facebook.com/"></a>
+					<a href="http://www.instagram.com/"><img id="socialicon4" width="25px" height="25px"
+							src="img/socialicons/instagram.png" href="http://www.instagram.com/"></a>
+					<a href="http://www.tumblr.com/"><img id="socialicon5" width="25px" height="25px"
+							src="img/socialicons/tumblr.png" href="http://www.tumblr.com/"></a>
+					<a href="http://www.twitter.com/"><img id="socialicon6" width="25px" height="25px"
+							src="img/socialicons/twitter.png" href="http://www.twitter.com/"></a>
+				</div>
+				<br></br>
+			</div>
+
+		</div>
+	</div>
+
+	<footer class="page-footer indigo darken-4">
+		<div class="container">
+			<div class="row">
+				<div class="col l6 s12">
+					<h5 class="white-text">Orlando Magic 8 Ball</h5>
+					<p class="grey-text text-lighten-4">Make your prediction for the next Orlando Magic game.<br> What
+						do you think will happen?
+					</p>
+				</div>
+				<div class="col l4 offset-l2 s12">
+					<ul>
+						<li><a class="grey-text text-lighten-3" href="stats.html">2018-2019 Regular Season
+								Statistics</a></li>
+						<li><a class="grey-text text-lighten-3" href="poster.html">DESIGN A POSTER</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-copyright indigo darken-3">
+			<div class="container">
+				Orlando Magic 8 Ball &copy 2019
+			</div>
+		</div>
+	</footer>
+
+
+
+
+</body>
+
+</html>

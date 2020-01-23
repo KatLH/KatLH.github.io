@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Orlando Magic 8 Ball</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!--Import Google Icon Font-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!--Import materialize.css-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+<header>
+	<nav class="hide-on-med-and-down">
+		<div class="nav-wrapper indigo darken-4">
+			<div class="container">
+				<a href="index.html" class="brand-logo">
+					<h1>Orlando Magic 8 Ball</h1>
+				</a>
+
+				<ul class="right hide-on-med-and-down">
+					<li class="active"><a href="stats.html">
+							<h4>MAGIC STATS</h4>
+						</a></li>
+					<li><a href="poster.html">
+							<h4>POSTER CREATOR</h4>
+						</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<a href="#" data-target="mobile-demo" class="top-left sidenav-trigger hide-on-large-only navbar-fixed"><i
+			class="medium material-icons icon-white indigo darken-3">menu</i></a>
+
+	<div class="line grey lighten-2 hide-on-med-and-down"></div>
+
+
+	<ul class="sidenav" id="mobile-demo">
+		<li><a href="index.html">HOME</a></li>
+		<li class="active"><a href="stats.html">MAGIC STATS</a></li>
+		<li><a href="poster.html">POSTER CREATOR</a></li>
+	</ul>
+</header>
+
+<body>
+	<div class="container">
+		<div class="section center-align">
+			<h2 class="mitr">ORLANDO MAGIC STATISTICS</h2>
+			<h3>2018-2019 Regular Season</h3>
+		</div>
+		<div class="row">
+			<div class="col s12 m5">
+				<div id="loading"></div>
+				<table id="standings" class="border highlight responsive-table"></table>
+				<br>
+				<table id="rank" class="border highlight responsive-table"></table>
+				<br>
+			</div>
+			<div class="col s12 m4 offset-m2 example">
+				<img class="responsive-img" src="img/stats/pennyHardaway_MD_2.png" alt="Penny Hardaway art">
+			</div>
+			<br>
+		</div>
+		<br>
+
+		<div class="row">
+			<div class="col s12 m6">
+				<table id="off" class="striped highlight responsive-table"></table>
+			</div>
+			<div class="col s12 m6">
+				<table id="def" class="striped highlight responsive-table"></table>
+			</div>
+		</div>
+		<br>
+
+		<div class="row">
+			<div class="col s12 m6">
+				<table id="reb" class="striped highlight responsive-table"></table>
+			</div>
+			<div class="col m6">
+				<table id="ft" class="striped highlight responsive-table"></table>
+			</div>
+		</div>
+		<br>
+
+		<div class="row">
+			<div class="col s12">
+				<table id="foul" class="striped highlight responsive-table"></table>
+			</div>
+		</div>
+		<br>
+
+	</div>
+
+	<footer class="page-footer indigo darken-4">
+		<div class="container">
+			<div class="row">
+				<div class="col l6 s12">
+					<h5 class="white-text">Orlando Magic 8 Ball</h5>
+					<p class="grey-text text-lighten-4">Make your prediction for the next Orlando Magic game.<br> What
+						do you think will happen?
+					</p>
+				</div>
+				<div class="col l4 offset-l2 s12">
+					<ul>
+						<li><a class="grey-text text-lighten-3" href="stats.html">2018-2019 Regular Season
+								Statistics</a></li>
+						<li><a class="grey-text text-lighten-3" href="poster.html">DESIGN A POSTER</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-copyright indigo darken-3">
+			<div class="container">
+				Orlando Magic 8 Ball &copy 2019
+			</div>
+		</div>
+	</footer>
+
+
+
+	<!--Jquery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!--JavaScript at end of body for optimized loading-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	<script src="js/stats.js" type="text/javascript"></script>
+	<script src="js/main.js" type="text/javascript"></script>
+</body>
+
+</html>

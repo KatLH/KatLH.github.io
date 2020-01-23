@@ -1,0 +1,166 @@
+/*@import "reset.css";*/
+/* Accent */
+@font-face {
+  font-family: gorditas;
+  src: url(../fonts/gorditas/Gorditas-Regular.ttf);
+}
+.gorditas {
+  font-family: gorditas;
+}
+
+/* Subheading, emphasis, buttons, links */
+@font-face {
+  font-family: fredoka;
+  src: url(../fonts/fredoka/FredokaOne-Regular.otf);
+}
+.fredoka {
+  font-family: fredoka;
+}
+
+/* Paragraph text */
+@font-face {
+  font-family: cooper hewitt;
+  src: url(../fonts/cooper-hewitt/CooperHewitt-Book.otf);
+}
+.cooper_hewitt {
+  font-family: cooper hewitt;
+}
+@font-face {
+  font-family: cooper hewitt;
+  src: url(../fonts/cooper-hewitt/CooperHewitt-Bold.otf);
+  font-weight: bold;
+}
+.cooper_hewitt-Bold {
+  font-family: cooper hewitt;
+  font-weight: bold;
+}
+
+
+@font-face {
+  font-family: open-sans;
+  src: url(../fonts/open-sans/OpenSans-Regular.ttf);
+}
+.open-sans {
+  font-family: open-sans;
+}
+@font-face {
+  font-family: open-sans;
+  src: url(../fonts/open-sans/OpenSans-Semibold.ttf);
+  font-weight: bold;
+}
+.open-sans-Bold {
+  font-family: open-sans;
+  font-weight: bold;
+}
+
+
+
+
+
+
+/* Accent header font (Paw prints surrounding letters) */
+@font-face {
+  font-family: thinpaws;
+  src: url(../fonts/thinpaws.ttf);
+}
+.thinpaws {
+  font-family: thinpaws;
+}
+
+
+
+
+
+/*--COLORS--*/
+.bluek {
+	background-color: #39CCCC;
+}
+.greenk {
+	background-color: #48D6B2;
+}
+.redk {
+	background-color: #cc3939;
+}
+.mintk {
+	background-color: #E6F4F1;
+}
+
+
+
+
+
+* {
+	font-family: open-sans;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+main {
+	flex: 1 0 auto;
+}
+
+form {
+	padding: 20px;
+}
+
+select {
+	display: block;
+}
+input[type="radio"]{
+    -webkit-appearance: radio;
+}
+
+
+
+.navHeader {
+	font-size: 28px;
+}
+li {
+	font-size: 20px;
+}
+
+
+
+
+.container {
+	width: 90%;
+}
+.brand-logo {
+	padding: 0 10px;
+}
+
+
+
+
+.center {
+	text-align: center;
+}
+.pawsterCards {
+	padding: 20px;
+}
+
+
+
+
+.heading {
+	font-size: 30px;
+	padding: 10px 0;
+	text-align: center;
+}
+.subheading {
+	font-size: 18px;
+	padding: 10px 0;
+	text-align: center;
+}
+.formHeading {
+	font-size: 20px;
+}
+.links {
+	font-size: 18px;
+}
+/* Pawster animal name */
+.name {
+	font-size: 16px;
+}

@@ -1,0 +1,86 @@
+@import "reset.css";
+@import "fonts.css";
+
+
+body {
+	width: 100%;
+	margin: 0 auto;
+}
+
+div.header-box {
+	width: 500px;
+	height: 100px;
+	padding: 15px;
+	float: left;
+	background-color: #ffca28;
+}
+
+div.body-box {
+	width: 500px;
+	height: 500px;
+	padding: 15px;
+	float: left;
+}
+
+div.p-box {
+	width: 450px;
+	height: 20px;
+	padding: 10px 0;
+}
+
+
+/*-- Typography --*/
+h1 {
+	font-family: boisu;
+	font-size: 60px;
+}
+
+h2 {
+	font-family: caveat;
+	font-size: 24px;
+}
+
+p {
+	font-family: cicle;
+	font-size: 20px;
+	text-align: center;
+}
+
+
+/*-- Navbar --*/
+ul {
+	list-style-type: none;
+}
+
+li {
+	display: inline;
+	padding: 10px 12px;
+	margin: 0 10px;
+	font-family: caveat;
+	font-size: 26px;
+}
+
+
+/*-- Images --*/
+img {
+	width: 450px;
+	height: 350px;
+}
+
+
+/*-- Colors --*/
+.yellow {
+	background-color: #ffca28;
+}
+
+.teal {
+	background-color: #80cbc4;
+}
+
+.purple {
+	background-color: #b39ddb;
+}
+
+.white {
+	background-color: white;
+}
