@@ -1,0 +1,99 @@
+@font-face {
+  font-family: mohave;
+  src: url(../fonts/mohave/Mohave-Regular.otf);
+}
+@font-face {
+  font-family: mohave;
+  font-weight: bold;
+  src: url(../fonts/mohave/Mohave-Medium.otf);
+}
+@font-face {
+  font-family: norwester;
+  src: url(../fonts/norwester/norwester.otf);
+}
+@font-face {
+  font-family: asap;
+  src: url(../fonts/asap/Asap-Regular.otf);
+}
+@font-face {
+  font-family: asap;
+  font-weight: bold;
+  src: url(../fonts/asap/Asap-Bold.otf);
+}
+.asap-bold {
+  font-family: asap;
+  font-weight: bold;
+  font-size: 18px;
+}
+.mohave {
+  font-family: mohave;
+}
+.mohave-bold {
+  font-family: mohave;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+main {
+  flex: 1 0 auto;
+}
+.page-footer {
+  background-color: #0c0b0a;
+}
+
+* {
+  font-family: asap;
+}
+.trailInfo span {
+  font-family: asap;
+  font-weight: bold;
+}
+.trailInfo {
+  padding: 20px;
+  margin: 20px 0;
+}
+h1 {
+  font-family: norwester;
+  font-size: 60px;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  background-color: #68721d;
+  -webkit-text-stroke: 1.2px black;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.664);
+}
+h2 {
+  font-family: norwester;
+  font-size: 35px;
+  text-align: center;
+  padding: 20px 0 0 0;
+  color: #713221;
+}
+h5 {
+  font-family: norwester;
+}
+p {
+  font-size: 18px;
+}
+
+.hero-image {
+  background-image: url("../img/freedom-2768515_1280.jpg");
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+#hike {
+  padding: 10px 40px 30px 40px;
+  font-size: 26px;
+  font-family: asap;
+  font-weight: bold;
+  text-align: center;
+}

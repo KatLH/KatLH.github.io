@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+* {
+	font-family: fira;
+	font-size: 20px;
+}
+
+
+#logo {
+    width: 300px;
+    height: 300px;
+}
+h1 {
+    font-family: 'Lobster', cursive;
+    position: relative;
+	top: -15px;
+
+}
+
+h1 { font-size: calc(.65em + 2vw) }
+
+@media only screen and (max-width: 600px) {
+	
+	}
+
+h4 {
+    font-family: 'Anton', cursive;
+    position: relative;
+    top: 10px;
+}
+
+h5 {
+    font-family: 'Lobster', cursive;
+}
+
+
+
+nav {
+  height: 100px;
+  line-height: 100px;
+}
+
+
+
+.line {
+  height: 1px;
+}
+
+.menu {
+    position: relative;
+    top: 20px;
+}
+
+/*Video*/
+
+#container {
+    overflow: hidden;
+    height: 600px;
+    background: #edeae8;
+    position: relative;
+	height: 100vh;
+  }
+  
+  video {
+    position: absolute;
+    
+    /* Vertical and Horizontal center*/
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .contain {
+    position: relative;
+    text-align: center;
+    color: white;
+    display: block;
+  }
+
+  .contains {
+    color: white;
+    display: block;
+  }
+
+
+/* Centered text */
+.centered {
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  }
+  
+  /* Top left text */
+  .top-left {
+    position: fixed;
+    top: 8px;
+    left: 16px;
+  }
+  
+  /* Top right text */
+  .top-right {
+    position: fixed;
+    top: 8px;
+    right: 16px;
+  }
+
+#answer {
+	color: black;
+	position: absolute;
+	top: 18%;
+	left: 30%;
+	width: 40%;
+	font-size: 0.8em;
+}
+
+/*--------------------------*/
+@font-face {
+  font-family: mitr;
+  src: url(../fonts/mitr/Mitr-Regular.ttf);
+}
+@font-face {
+  font-family: mitr;
+  src: url(../fonts/mitr/Mitr-Bold.ttf);
+  font-weight: bold;
+}
+.mitr {
+  font-family: mitr;
+}
+.mitr-bold {
+	font-family: mitr;
+	font-weight: bold;
+}
+@font-face {
+  font-family: fira;
+  src: url(../fonts/fira-sans/FiraSans-Regular.otf);
+}
+.fira {
+	font-family: fira;
+}
+
+
+.container {
+	width: 90%;
+}
+
+
+.magicBlue {
+	background-color: #0077C0;
+}
+.magicBlue-text {
+	color: #0077C0;
+}
+.silver {
+	background-color: #C4CED4;
+}
+.silver-text {
+	color: #C4CED4;
+}
+
+.header-section {
+	font-size: 50px;
+	padding: 20px 0;
+}
+
+.side {
+	font-size: 40px;
+	padding: 0 10px;
+}
+
+i.icon-white {
+  color: white;
+  box-shadow: 1px 1px;
+}
+
+.vote {
+	padding: 40px 0;
+}

@@ -1,0 +1,256 @@
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- title displayed in browser tab -->
+    <title>Refractions | Customize</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/icon/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="images/icon/favicon.ico" type="image/x-icon" />
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+	<header>
+		<nav class="navbar">
+			<span class="navbar-toggle" id="js-navbar-toggle">
+				<i class="fa fa-bars"></i>
+			</span>
+			<a href="index.html" class="logo">Refractions</a>
+			<!--<p class="tagline">Look your best // Feel your best</p>-->
+			<ul class="main-nav" id="js-menu">
+				<li>
+					<a href="index.html" class="nav-links">Home</a>
+				</li>
+				<li>
+					<a href="catalog.html" class="nav-links">Catalog</a>
+				</li>
+				<li>
+					<a href="customize.html" class="active nav-links">Customize</a>
+				</li>
+				<li>
+					<a href="checkout.html" class="nav-links" id="cart">
+						<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+							<path
+								d="M16.53 7l-.564 2h-15.127l-.839-2h16.53zm-14.013 6h12.319l.564-2h-13.722l.839 2zm5.983 5c-.828 0-1.5.672-1.5 1.5 0 .829.672 1.5 1.5 1.5s1.5-.671 1.5-1.5c0-.828-.672-1.5-1.5-1.5zm11.305-15l-3.432 12h-13.017l.839 2h13.659l3.474-12h1.929l.743-2h-4.195zm-6.305 15c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5c0-.828-.672-1.5-1.5-1.5z" />
+						</svg>
+					</a>
+				</li>
+			</ul>
+		</nav>
+
+		<div class="grid-1 banner magenta">
+			<div class="grid-item">
+				<p>Get 10% off your first order when you <a class="checkout" href="#">subscribe</a> to our newsletter!</p>
+			</div>
+		</div>
+	</header>
+
+    <main class="custom">
+        <div class="grid-1 image">
+			<br><br>
+            <div class="grid-item white custom-pad">
+				<h3>Have something specific in mind?</h3>
+				<br><br>
+				<h4>Fill out and send us the form below and we will ship you your custom designed mirror within 7 days guaranteed!</h4>
+			</div>
+			<br><br>
+		</div>
+
+		<div class="grid-1 instruct">
+			<div class="grid-item light-pink">
+				<br>
+				<p>Select an option from each field to design a custom mirror of your own.</p>
+				<br>
+			</div>
+		</div>
+
+		<form>
+			<!--Choose the Glass-->
+			<fieldset>
+				<legend><span class="whitebox">Glass</span></legend>
+				<div class="grid-3">
+					<div class="grid-item label" id="plane">
+						<label for="plane">Plane Mirror </label>
+						<input type="radio" name="glass" value="plane">
+					</div>
+					<div class="grid-item label" id="concave">
+						<label for="concave">Concave Mirror </label>
+						<input type="radio" name="glass" value="concave">
+					</div>
+					<div class="grid-item label" id="convex">
+						<label for="convex">Convex Mirror </label>
+						<input type="radio" name="glass" value="convex">
+					</div>
+
+					<div class="grid-item flesh plane">
+						<p>These are flat mirrors that reflect images in their normal proportions, reversed from left to right. This is the most
+							common type of mirror used in bedrooms and bathrooms.</p>
+					</div>
+					<div class="grid-item pink concave">
+						<p>Convex mirrors are also spherical mirrors. However, unlike concave mirrors, they bulge out and distort the reflected
+							image, making it smaller.</p>
+					</div>
+					<div class="grid-item light-pink convex">
+						<p>These are flat mirrors that reflect images in their normal proportions, reversed from left to right. This is the most common type of mirror used in bedrooms and bathrooms.</p>
+					</div>							
+				</div>
+			</fieldset>
+			<div class="divider"></div>
+
+			<!--Choose the Style-->
+			<fieldset>
+				<legend><span class="whitebox">Style</span></legend>
+				<div class="grid-3">
+					<div class="grid-item desk">
+						<img class="responsive" src="images/customize/mirrors/round_desk.png"
+							alt="Small round desk mirror with a gold frame"><br>
+					</div>
+					<div class="grid-item"></div>
+					<div class="grid-item wall">
+						<img class="responsive" src="images/customize/mirrors/oval_silver.png" alt="Oval mirror with a silver frame"><br>
+					</div>
+
+					<div class="grid-item label" id="desk">
+						<label for="desk">Desk Mirror</label>
+						<input type="radio" name="style" value="desk">
+					</div>
+					<div class="grid-item"></div>
+					<div class="grid-item label" id="wall">
+						<label for="wall">Wall Mirror</label>
+						<input type="radio" name="style" value="wall">
+					</div>
+				</div>
+				<div class="grid-3">
+					<div class="grid-item dresser">
+						<img class="responsive" src="images/customize/mirrors/dresser.png"
+							alt="Wooden dresser with two oval mirrors on the doors"><br>
+					</div>
+					<div class="grid-item"></div>
+					<div class="grid-item vanity">
+						<img class="responsive" src="images/customize/mirrors/oval_vanity.png"
+							alt="Oval vanity mirror with a decorative wooden frame"><br>
+					</div>
+
+					<div class="grid-item label" id="dresser">
+						<label for="dresser">Dresser Mirror</label>
+						<input type="radio" name="style" value="dresser">
+					</div>
+					<div class="grid-item"></div>
+					<div class="grid-item label" id="vanity">
+						<label for="vanity">Vanity Mirror</label>
+						<input type="radio" name="style" value="vanity">
+					</div>
+				</div>
+			</fieldset>
+			
+
+			<!--Choose the Shape-->
+			<fieldset>
+				<legend><span class="whitebox">Shape</span></legend>
+				<div class="grid-3">
+					<div class="grid-item round">
+						<img class="responsive" src="images/customize/mirrors/round_bamboo.png" alt="Round shaped mirror"><br>
+					</div>
+					<div class="grid-item oval">
+						<img class="responsive" src="images/customize/mirrors/oval_gold.png" alt="Oval shaped mirror"><br>
+					</div>
+					<div class="grid-item rectangle">
+						<img class="responsive" src="images/customize/mirrors/square_wooden.png" alt="Rectangle shaped mirror"><br>
+					</div>
+
+					<div class="grid-item label" id="round">
+						<label for="round">Round</label>
+						<input type="radio" name="shape" value="round">
+					</div>
+					<div class="grid-item label" id="oval">
+						<label for="oval">Oval</label>
+						<input type="radio" name="shape" value="oval">
+					</div>
+					<div class="grid-item label" id="rectangle">
+						<label for="rectangle">Rectangle</label>
+						<input type="radio" name="shape" value="rectangle">
+					</div>
+				</div>
+			</fieldset>
+
+			<!--Choose the Frame-->
+			<fieldset>
+				<legend><span class="whitebox">Frame</span></legend>
+				<div class="grid-3">
+					<div class="grid-item gold">
+						<img class="responsive" src="images/customize/mirrors/oval_gold.png" alt="Gold mirror frame"><br>
+					</div>
+					<div class="grid-item silver">
+						<img class="responsive" src="images/customize/mirrors/oval_silver.png" alt="Silver mirror frame"><br>
+					</div>
+					<div class="grid-item wood">
+						<img class="responsive" src="images/customize/mirrors/square_wooden.png" alt="Wooden mirror frame"><br>
+					</div>
+
+					<div class="grid-item label" id="gold">
+						<label for="gold">Gold</label>
+						<input type="radio" name="frame" value="gold">
+					</div>
+					<div class="grid-item label" id="silver">
+						<label for="silver">Silver</label>
+						<input type="radio" name="frame" value="silver">
+					</div>
+					<div class="grid-item label" id="wood">
+						<label for="wood">Wooden</label>
+						<input type="radio" name="frame" value="wood">
+					</div>
+				</div>
+			</fieldset>
+
+			<!--Add Lights-->
+			<fieldset>
+				<div class="grid-1 narrow">
+					<div class="grid-item lights">
+						<img class="responsive" src="images/customize/mirrors/lights.png" alt="Mirror lights">
+					</div>
+					<div class="grid-item label" id="lights">
+						<label for="lights">Lights</label>
+						<input type="checkbox" name="lights" value="true">
+					</div>
+				</div>
+				<div class="submit">
+					<input type="submit" value="Submit">
+				</div>
+			</fieldset>
+
+		</form>
+		
+    </main>
+
+	<footer>
+		<div class="footer-content">
+			<div class="grid-2">
+				<div class="grid-item">
+					<p class="tagline">Look your best // Feel your best</p>
+					<br>
+					<p class="metropolis center">All images are copyright free for noncommercial use</p>
+				</div>
+				<div class="grid-item">
+					<div class="contactBtn">
+						<a href="contact.html">Contact Us</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<div class="copyright">
+			<div class="grid-1">
+				<div class="grid-item">
+					<h4>Refractions &copy; 2019</h4>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+	<script src="js/main.js"></script>
+</body>
+
+</html>

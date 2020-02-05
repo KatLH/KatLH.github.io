@@ -1,0 +1,501 @@
+/*---------------------------------------FONTS--------------------------------------------*/
+@font-face {
+  font-family: ThreeD umb;
+  src: url(../fonts/3dumb/3Dumb.ttf);
+}
+
+@font-face {
+  font-family: Caviar Dreams;
+  src: url(../fonts/Caviar-Dreams/CaviarDreams.ttf);
+}
+
+@font-face {
+  font-family: Lato;
+  src: url(../fonts/lato/Lato_Hairline.ttf);
+}
+
+@font-face {
+  font-family: Virgo;
+  src: url(../fonts/Virgo-01/virgo.ttf);
+}
+
+.caviar_dreams {
+  font-family: Caviar Dreams;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+}
+
+.lato {
+  font-family: Lato;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+}
+/*-----------------------------------GENERAL_STYLES------------------------------------------*/
+body {
+  width: 100%;
+  margin: 0;
+  background-color: black;
+}
+
+a {
+  transition: .5s ease;
+  text-decoration: none;
+  color: white;
+}
+
+.body {
+  margin: 4% 0 0 0;
+}
+
+/*---------------------------------------HEADER--------------------------------------------*/
+.header {
+  width: 100%;
+  display: inline-block;
+  padding: 20px 0px;
+  box-shadow: 0px 5px 100px #466CB2;
+  background-image: url("../img/stock_img/moon.jpg");
+  background-size: cover;
+  background-color: black;
+}
+
+.title {
+  margin: 1% auto;
+  display: block;
+  text-align: center;
+  overflow-wrap: break-word;
+  /* Font */
+  font-family: ThreeD umb;
+  font-size: 36px;
+  color: white;
+}
+
+.title a:hover, .title a.active {
+  color: #00C2AF;
+}
+
+/*---------------------------------------NAVIGATION--------------------------------------------*/
+.navigation {
+  margin: 15px 0 0 0;
+  text-align: center;
+  color: white;
+
+}
+
+.navigation ul {
+  list-style-type: none;
+}
+
+.navigation li {
+  display: inline-block;
+  padding: 10px 14px;
+}
+
+.navigation a {
+  color: white;
+  font-family: Caviar Dreams;
+  font-size: 16px;
+}
+
+.navigation a:hover, a.active {
+  color: #00C2AF;
+}
+
+/*---------------------------------------INDEX.HTML_BODY--------------------------------------------*/
+.index_background {
+  background-image: url("../img/stock_img/astro_world.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.index_image {
+  width: 100%;
+}
+
+.splash {
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+}
+
+.rocket_arrow {
+  width: 5%;
+  display: block;
+  margin: 2% auto 0 auto;
+}
+
+.nav_button {
+  width: 50%;
+  display: block;
+  margin: 5% auto 10% auto;
+  overflow-wrap: break-word;
+  text-align: center;
+  font-size: 24px;
+  font-family: Virgo;
+  color: white;
+}
+
+.nav_button a {
+  width: 70%;
+  display: inline-block;
+  margin: 10% 0;
+  padding: 20px 30px;
+  border-radius: 10px;
+  background-color: #466CB2;
+}
+
+.nav_button a:hover {
+  transition: .5s ease;
+  color: white;
+  box-shadow: 0px 5px 100px #D0685A;
+}
+/*---------------------------------------PORTFOLIO.HTML_BODY--------------------------------------------*/
+.portfolio_background {
+  background-image: url("../img/stock_img/galaxy_blue.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.port_column {
+  width: 60%;
+  margin: 2% auto 0 auto;
+  padding: 20px 0;
+  overflow-wrap: break-word;
+  text-align: center;
+  font-family: Caviar Dreams;
+  color: white;
+  background-color: black;
+}
+
+.port_img {
+  position: relative;
+  width: 90%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: black;
+}
+
+.port_image {
+  width: 100%;
+  margin: auto;
+
+  opacity: 1;
+  display: block;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.port_img:hover .port_image {
+  opacity: 0.3;
+}
+
+.port_img:hover .middle {
+  opacity: 1;
+}
+
+.port_title {
+  background-color: #466CB2;
+  color: white;
+  font-size: 26px;
+  padding: 16px 32px;
+  font-family: Virgo;
+}
+
+.port_text {
+  transition: 1s ease;
+  background-color: #00C2AF;
+  color: white;
+  font-size: 14px;
+  padding: 16px 32px;
+  border-radius: 50px;
+  font-family: Caviar Dreams;
+}
+
+.port_text:hover {
+  transition: .5s ease;
+  color: white;
+  background-color: #D0685A;
+  box-shadow: 0px 5px 100px #D0685A;
+}
+
+/*---------------------------------------COMMISSIONS.HTML_BODY--------------------------------------------*/
+.com_background {
+  background-image: url("../img/stock_img/sky.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.com_header {
+  width: 70%;
+  margin: 2% auto 0 auto;
+  padding: 20px;
+  overflow-wrap: break-word;
+  line-height: 22px;
+  font-family: Caviar Dreams;
+  color: white;
+  background-color: black;
+}
+
+.com_container {
+  width: 100%;
+  display: table;
+}
+
+.com_column {
+  width: 80%;
+  display: block;
+  margin: 2% auto 0 auto;
+  padding: 7px 0;
+  overflow-wrap: break-word;
+  text-align: center;
+  font-family: Caviar Dreams;
+  color: white;
+  background-color: black;
+}
+
+.com_title {
+  font-size: 24px;
+  padding: 13px 0 20px 0;
+  color: #00C2AF;
+}
+
+.com_text {
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: left;
+  line-height: 24px;
+}
+
+.com_image {
+  width: 95%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.commissions {
+  width: 100%;
+  margin: auto;
+  display: table-cell;
+}
+
+.com_price_title {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.com_price_title h3, .com_color_title h3 {
+  font-size: 18px;
+  color: #00C2AF;
+}
+
+.com_color_title {
+  width: 90%;
+}
+
+.com_contact {
+  color: #00C2AF;
+}
+.com_contact:hover {
+  color: #008DC9;
+}
+
+/*---------------------------------------CONTACT.HTML_BODY--------------------------------------------*/
+.contact_background {
+  background-image: url("../img/stock_img/galaxy_purple.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact_form {
+  width: 60%;
+  margin: 5% auto;
+  padding: 20px 30px;
+  overflow-wrap: break-word;
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: 0px 5px 100px #6F4B87;
+  background-color: black;
+
+}
+
+.contact_title {
+  padding: 20px 0;
+  text-align: center;
+  font-family: Virgo;
+  font-size: 32px;
+  color: white;
+}
+
+form {
+  padding: 20px;
+}
+
+fieldset {
+  width: 90%;
+  margin: auto;
+}
+
+input[type=text] {
+  width: 80%;
+  margin: 10px 0;
+  padding: 14px 10px;
+  font-family: Caviar Dreams;
+  font-size: 16px;
+  color: black;
+  background-color: white;
+}
+
+textarea {
+  width: 80%;
+  padding: 14px 10px;
+  margin: 20px 0 0 0;
+  box-sizing: border-box;
+  font-family: Caviar Dreams;
+  font-size: 16px;
+  background-color: white;
+}
+
+input[type=submit] {
+  margin: 20px auto 0 auto;
+  padding: 10px;
+  font-family: Caviar Dreams;
+  font-size: 16px;
+  color: white;
+  background-color: black;
+}
+
+input[type=submit]:hover {
+  box-shadow: 1px 1px 3px black;
+  color: white;
+}
+
+/*---------------------------------DIGITAL.HTML-&-HAND_DRAWN.HTML_BODY--------------------------------------*/
+.portfolio_page_background {
+  background-image: url("../img/stock_img/sky.jpg");
+  background-repeat: no-repeat;
+}
+
+.pp_container {
+  width: 90%;
+  display: table;
+  margin: 2% auto 0 auto;
+}
+
+.pp_column {
+  width: 90%;
+  display: block;
+  margin: 2% auto 0 auto;
+  padding: 10px;
+  overflow-wrap: break-word;
+  text-align: center;
+  font-family: Caviar Dreams;
+  color: white;
+  background-color: black;
+}
+
+.pp_header {
+  width: 50%;
+  margin: 0% auto 4% auto;
+  padding: 20px 5px;
+  text-align: center;
+  font-family: Virgo;
+  font-size: 40px;
+  border-bottom: 2px solid #00C2AF;
+
+  color: white;
+  text-shadow: 2px 5px 30px #D0685A;
+}
+
+.pp_title {
+  padding: 13px 0 20px 0;
+}
+
+.pp_text {
+  line-height: 20px;
+  overflow-wrap: break-word;
+}
+
+.pp_img {
+  width: 80%;
+  height: auto;
+  display: table-cell;
+  margin: 0 auto;
+}
+
+.pp_image {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+
+/*---------------------------------------ABOUT.HTML_BODY--------------------------------------------*/
+.about_background {
+  background-image: url("../img/stock_img/circle.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about_column {
+  width: 70%;
+  margin: 2% auto 0 auto;
+  padding: 10px;
+  overflow-wrap: break-word;
+  text-align: center;
+  font-family: Caviar Dreams;
+  color: white;
+  background-color: black;
+}
+
+.about_title {
+  font-family: Virgo;
+  color: #00C2AF;
+  font-size: 26px;
+  padding: 20px 0 10px 0;
+}
+
+.about_text {
+  padding: 20px;
+  text-align: left;
+  line-height: 22px;
+  overflow-wrap: break-word;
+}
+
+/*---------------------------------------FOOTER--------------------------------------------*/
+.footer {
+  width: 100%;
+  display: inline-block;
+  margin: 5% auto -1% auto;
+  padding: 30px 0px;
+  overflow-wrap: break-word;
+  box-shadow: 0px 10px 100px #466CB2;
+  background-color: black;
+}
+
+.footer a {
+  transition: .5s ease;
+}
+
+.footer a:hover {
+  transition: .5s ease;
+  color: #00C2AF;
+}

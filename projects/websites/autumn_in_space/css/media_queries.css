@@ -1,0 +1,66 @@
+@media only screen and (max-width: 480px) {
+  .port_column, .about_column, .contact_form, .com_column, .pp_column { width: 80%; }
+
+  .title {
+    font-family: Virgo;
+    font-size: 20px;
+    margin: 2% 0 0 0;
+  }
+
+  .nav_button {
+    width: 50%;
+    margin: 5% auto 0% auto;
+  }
+	.nav_button a {
+    width: 70%;
+    padding: 16px 10px;
+    font-size: 18px;
+  }
+
+  .port_title { font-size: 20px; }
+  .pp_header { font-size: 28px; }
+
+  .contact_title { font-size: 22px;}
+  input[type=text] {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+  textarea {
+    width: 80%;
+    font-size: 14px;
+  }
+
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+  .title {  font-size: 30px; }
+
+  .nav_button {
+    margin: 5% auto 10% auto;
+    font-size: 20px;
+  }
+	.nav_button a {
+    padding: 20px 30px;
+  }
+
+  .port_title { font-size: 20px; }
+
+  .pp_header { font-size: 28px; }
+
+  .contact_title { font-size: 22px;}
+  input[type=text] {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+  textarea {
+    width: 80%;
+    font-size: 14px;
+  }
+
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}

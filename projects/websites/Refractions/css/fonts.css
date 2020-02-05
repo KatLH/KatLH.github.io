@@ -1,0 +1,38 @@
+@font-face {
+  font-family: boisu;
+  src: url(../fonts/boisu/Boisu-Stroke.otf);
+}
+@font-face {
+  font-family: caveat;
+  src: url(../fonts/caveat/caveat-regular.ttf);
+}
+@font-face {
+  font-family: playfair;
+  src: url(../fonts/playfair-display/PlayfairDisplay-Regular.otf);
+}
+@font-face {
+  font-family: metropolis;
+  src: url(../fonts/metropolis/Metropolis-Light.otf);
+}
+@font-face {
+  font-family: metropolis;
+  font-weight: bold;
+  src: url(../fonts/metropolis/Metropolis-Medium.otf);
+}
+
+.boisu {
+  font-family: boisu;
+}
+.caveat {
+  font-family: caveat;
+}
+.playfair {
+  font-family: playfair;
+}
+.metropolis {
+  font-family: metropolis;
+}
+.metropolis-bold {
+  font-family: metropolis;
+  font-weight: bold;
+}
