@@ -3,20 +3,59 @@
     src: url(fonts/dosis/Dosis-Regular.otf);
 }
 
-a {
-    text-decoration: none;
+@font-face {
+    font-family: dosis;
+    font-weight: bold;
+    src: url(fonts/dosis/Dosis-Bold.otf);
 }
 
-h1, h2 {
+.dosis {
+  font-family: dosis;
+}
+
+.dosis-bold {
+  font-family: dosis;
+  font-weight: bold;
+}
+
+.dark-purple { background-color: #845EC2; }
+.mid-purple { background-color: #B39CD0; }
+.light-purple { background-color: #FBEAFF; }
+.blue-green { background-color: #00C9A7; }
+
+.dark-purple-text { color: #845ec2; }
+.mid-purple-text { color: #b39cd0; }
+.light-purple-text { color: #fbeaff; }
+.blue-green-text { color: #00c9a7; }
+
+
+
+
+a {
+    text-decoration: none;
+    font-family: dosis;
+}
+
+ul {
+    font-size: 24px;
+    line-height: 40px;
     text-align: center;
 }
+
+h1, h2, h3, h4 {
+    text-align: center;
+    font-family: dosis;
+    font-weight: bold;
+}
+
 
 body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    max-width: 90%;
     font-family: dosis;
+    font-size: 18px;
+    line-height: 30px;
 }
 
 main {
@@ -24,5 +63,11 @@ main {
 }
 
 .section {
-    margin: 20px 0;
+    padding: 20px 0;
+}
+
+.content {
+    padding: 30px 0;
+    margin: 0 auto;
+    width: 90%;
 }
