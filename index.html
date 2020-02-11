@@ -25,21 +25,35 @@
             <div id="navbarBasicExample" class="navbar-menu">
                 <div class="navbar-start">
                     <a class="navbar-item" href="index.html">Home</a>
-        
+                    <a class="navbar-item" href="#web">Web Portfolio</a>
+                    <a class="navbar-item" href="#mockups">Mockups</a>
+                    
+                    <!--
                     <div class="navbar-item has-dropdown is-hoverable">
                         <a class="navbar-link">Portfolio</a>
-        
+                        
                         <div class="navbar-dropdown">
-                            <a class="navbar-item" href="">Websites</a>
-                            <a class="navbar-item" href="">Mockups</a>
+                            <a class="navbar-item" href="#web">Websites</a>
+                            <a class="navbar-item" href="#mockups">Mockups</a>
                         </div>
                     </div>
+                    -->
                 </div>
         
                 <div class="navbar-end">
                     <div class="navbar-item">
+                        <span class="icon">
+                            <a href="https://www.linkedin.com/in/katherine-hurst-/" target="_blank"><i class="fab fa-linkedin-in fa-lg"></i></a>
+                        </span>
+                    </div>
+                    <div class="navbar-item">
+                        <span class="icon">
+                            <a href="https://github.com/KatLH" target="_blank"><i class="fab fa-github fa-lg"></i></a>
+                        </span>
+                    </div>
+                    <div class="navbar-item">
                         <div class="buttons">
-                            <a class="button is-primary">
+                            <a class="button is-link" href="#contact">
                                 <strong>Contact</strong>
                             </a>
                         </div>
@@ -49,16 +63,16 @@
         </nav>
 
         <!--Header-->
-        <section class="hero is-medium is-success is-bold">
+        <section class="hero is-medium is-dark is-bold">
             <div class="hero-body">
                 <div class="container">
                     <div class="columns is-vcentered">
-                        <div class="column is-two-fifths">
+                        <div class="column is-5">
                             <figure class="image is-square">
                                 <img class="is-rounded" src="img/KatherineHurstHeadshot.JPG" alt="Headshot of Katherine Hurst.">
                             </figure>
                         </div>
-                        <div class="column">
+                        <div class="column is-6 is-offset-1">
                             <h1 class="title">Katherine Hurst</h1>
                             <h2 class="subtitle">Full Stack Engineer</h2>
                             <p>Katherine Hurst is a Full Stack Engineer based in Orlando, FL. She will graduate from the University of Central
@@ -71,97 +85,159 @@
             </div>
         </section>
 
+        <!--Skills-->
+        <!--
+        <div class="container is-fluid">
+            <div class="section">
+                <h2 class="title">Skills</h2>
+            </div>
+            <div class="section"></div>
+        </div>
+        <hr>
+        -->
+
         <!--Website portfolio-->
-        <div class="section">
-            <div class="tile is-ancestor">
-                <div class="tile is-vertical is-8">
+        <div id="web" class="container is-fluid">
+            <div class="section">
+                <h2 class="title">Websites</h2>
+            </div>
+            <div class="section">
+                <div class="tile is-ancestor">
+                    <div class="tile is-vertical is-12">
 
-                    <div class="tile">
-                        <div class="tile is-parent is-vertical">
-                            <!--Orlando Magic 8 Ball-->
-                            <article class="tile is-child notification is-primary">
-                                <p class="title">Orlando Magic 8 Ball</p>
-                                <figure class="image is-4by3">
-                                    <img src="img/orlandomagic8ball.png">
-                                </figure>
-                                <div class="content">
-                                    <p>Online community for Orlando Magic basketball fans to discuss their game predictions and get the latest team statistics.</p>
-                                    <p>Developed using JavaScript, jQuery, AJAX, PHP, MySQL, Materialize, and MySportsFeeds API.</p>
-                                    <a class="button is-primary" href="projects/websites/orlandoMagic8Ball/index.html" target="_blank">Click Here to View</a>
-                                </div>
-                            </article>
+                        <!--Tile row #1-->
+                        <div class="tile">
+                            <div class="tile is-parent is-vertical">
+                                <!--Orlando Magic 8 Ball-->
+                                <article class="tile is-child notification is-link">
+                                    <p class="title has-text-centered">Orlando Magic 8 Ball</p>
+                                    <figure class="image is-4by3">
+                                        <img src="img/orlandomagic8ball.png">
+                                    </figure>
+                                    <div class="content">
+                                        <p>Online community for Orlando Magic basketball fans to discuss their game predictions and get the latest team
+                                            statistics.</p>
+                                        <p>Developed using JavaScript, jQuery, AJAX, PHP, MySQL, Materialize, and MySportsFeeds API.</p>
+                                        <a class="button is-primary " href="projects/websites/orlandoMagic8Ball/index.html" target="_blank">Click Here to
+                                            View</a>
+                                    </div>
+                                </article>
 
-                            <!--Refractions-->
-                            <article class="tile is-child notification is-warning">
-                                <p class="title">Refractions</p>
-                                <figure class="image is-4by3">
-                                    <img src="img/refractions.png">
-                                </figure>
-                                <div class="content">
-                                    <p>Ecommerce website for users to design a custom mirror or select one from the catalog.</p>
-                                    <p>Developed using HTML, CSS, Flexbox, and JavaScript.</p>
-                                    <a class="button is-primary" href="projects/websites/Refractions/index.html" target="_blank">Click Here to View</a>
-                            </article>
-                        </div>
-                        
-                        <div class="tile is-parent is-vertical">
-                            <!--Autumn In Space-->
-                            <article class="tile is-child notification is-info">
-                                <p class="title">Autumn In Space</p>
-                                <figure class="image is-4by3">
-                                    <img src="img/ais.png">
-                                </figure>
-                                <div class="content">
-                                    <p>Freelance job designing a website for the artist, Autumn in Space, to display their portfolio pieces, commission
-                                        pricing, and contact information.</p>
-                                    <p>Developed using HTML, CSS, and JavaScript.</p>
-                                    <a class="button is-primary" href="projects/websites/autumn_in_space/nav/index.html" target="_blank">Click Here to View</a>
-                                </div>
-                            </article>
+                                <!--Refractions-->
+                                <article class="tile is-child notification is-danger">
+                                    <p class="title  has-text-centered">Refractions</p>
+                                    <figure class="image is-4by3">
+                                        <img src="img/refractions.png">
+                                    </figure>
+                                    <div class="content">
+                                        <p>Ecommerce website for users to design a custom mirror or select one from the catalog.</p>
+                                        <p>Developed using HTML, CSS, Flexbox, and JavaScript.</p>
+                                        <a class="button is-primary" href="projects/websites/Refractions/index.html" target="_blank">Click Here to
+                                            View</a>
+                                </article>
+                            </div>
 
-                            <!--Hiking Trail Finder-->
-                            <article class="tile is-child notification is-danger">
-                                <p class="title">Hiking Trail Finder</p>
-                                <figure class="image is-4by3">
-                                    <img src="img/trailfinder.png">
-                                </figure>
-                                <div class="content">
-                                    <p>A single page web application that uses the Trail Finder API to help users find hiking trails near them, based on the
-                                        filters the user
-                                        chose.</p>
-                                    <p>Developed using jQuery, AJAX, JSON, and Materialize.</p>
-                                    <a class="button is-primary" href="projects/websites/trail_finder/index.html" target="_blank">Click Here to View</a>
-                                </div>
-                            </article>
+                            <!--Tile row #2-->
+                            <div class="tile is-parent is-vertical">
+                                <!--Autumn In Space-->
+                                <article class="tile is-child notification is-success">
+                                    <p class="title has-text-centered">Autumn In Space</p>
+                                    <figure class="image is-4by3">
+                                        <img src="img/ais.png">
+                                    </figure>
+                                    <div class="content">
+                                        <p>Freelance job designing a website for the artist, Autumn in Space, to display their portfolio pieces,
+                                            commission
+                                            pricing, and contact information.</p>
+                                        <p>Developed using HTML, CSS, and JavaScript.</p>
+                                        <a class="button is-primary" href="projects/websites/autumn_in_space/nav/index.html" target="_blank">Click Here
+                                            to View</a>
+                                    </div>
+                                </article>
+
+                                <!--Hiking Trail Finder-->
+                                <article class="tile is-child notification is-warning">
+                                    <p class="title has-text-centered">Hiking Trail Finder</p>
+                                    <figure class="image is-4by3">
+                                        <img src="img/trailfinder.png">
+                                    </figure>
+                                    <div class="content">
+                                        <p>A single page web application that uses the Trail Finder API to help users find hiking trails near them,
+                                            based on the
+                                            filters the user
+                                            chose.</p>
+                                        <p>Developed using jQuery, AJAX, JSON, and Materialize.</p>
+                                        <a class="button is-primary" href="projects/websites/trail_finder/index.html" target="_blank">Click Here to
+                                            View</a>
+                                    </div>
+                                </article>
+                            </div>
+
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+        <hr>
 
-                    <div class="tile is-parent">
-                        <!--Hiking Trail Finder-->
-                        <article class="tile is-child notification is-danger">
-                            <p class="title">Hiking Trail Finder</p>
-                            <figure class="image is-4by3">
-                                <img src="img/trailfinder.png">
+        <!--Mockups-->
+        <div id="mockups" class="container is-fluid">
+            <div class="section">
+                <h2 class="title">Mockups</h2>
+            </div>
+            <div class="section">
+                <div class="columns">
+                    <div class="column">
+                        <article class="tile is-child notification is-info">
+                            <p class="title has-text-centered">Midnight Slice Mobile App Mockups</p>
+                            <figure class="image ">
+                                <img src="projects/mockups/pizza_startup/6-Mobile Navigation [Menu].png" alt="Pizza startup mobile navigation menu mockup.">
                             </figure>
-                            <div class="content">
-                                <p>A single page web application that uses the Trail Finder API to help users find hiking trails near them, based on the
-                                    filters the user
-                                    chose.</p>
-                                <p>Developed using jQuery, AJAX, JSON, and Materialize.</p>
-                                <a class="button is-primary" href="projects/websites/trail_finder/index.html" target="_blank">Click Here to View</a>
+                            <!--
+                            <div class="content has-text-centered">
+                                <a class="button is-primary" href="#" target="_blank">View the rest of the collection.</a>
+                            </div>
+                            -->
+                        </article>
+                    </div>
+                    <div class="column">
+                        <article class="tile is-child notification is-info">
+                            <p class="title has-text-centered">Hiking Trail Finder</p>
+                            <figure class="image ">
+                                <img src="projects/mockups/dandelion_cafe/Index (mobile).png" alt="Dandelion Cafe website rebrand mockup.">
+                            </figure>
+                            <div class="content has-text-centered">
+                                <a class="button is-primary" href="https://xd.adobe.com/view/658e0c1f-547a-4e86-6178-50e2e270e883-13bf/"
+                                    target="_blank">View the rest of the collection.</a>
                             </div>
                         </article>
                     </div>
-
                 </div>
             </div>
         </div>
         
-        
-
-
-
-
-
+        <!--Contact-->
+        <footer id="contact" class="footer">
+            <div class="content">
+                <div class="columns">
+                    <div class="column">
+                        <h3 class="has-text-left"><strong>Katherine Hurst</strong></h3>
+                        <span class="icon">
+                            <a href="https://www.linkedin.com/in/katherine-hurst-/" target="_blank"><i class="fab fa-linkedin-in fa-lg"></i></a>
+                        </span>
+                        <span class="icon">
+                            <a href="https://github.com/KatLH" target="_blank"><i class="fab fa-github fa-lg"></i></a>
+                        </span>
+                    </div>
+                    <div class="column">
+                        <h4 class="has-text-left"><strong>Contact</strong></h4>
+                        <p>katherinehurst.dev@gmail.com</p>
+                        <p>941-357-6613</p>
+                        <p>Orlando, FL</p>
+                    </div>
+ 
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
