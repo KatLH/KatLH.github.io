@@ -21,16 +21,48 @@
 .eerie { background-color: #0D1B2A; }
 .yankee { background-color: #1B263B; }
 .light-grey { background-color: #CED3DC; }
-.shadow { background-color: #777DA7; }
-.eton { background-color: #94C9A9; }
 
 .eerie-text { color: #0D1B2A; }
 .yankee-text { color: #1B263B; }
 .light-grey-text { color: #CED3DC; }
-.shadow-text { color: #777DA7; }
-.eton-text { color: #94C9A9; }
+.white-text { color: white; }
+.royal-blue-text { color: #0A2463; }
 
 
+
+.royal-blue { background-color: #0A2463; }
+.french-sky-blue { background-color: #7692FF; }
+.gargoyle-gas { background-color: #FFE74C; }
+.platinum { background-color: #E2E2E2; }
+.white { background-color: white; }
+
+.mint {
+    background-color: #D4F1ED;
+}
+.green {
+    padding: 40px 0;
+    background-color: #2A8C85;
+}
+
+.skillsbg {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px 50px;
+    color: #0D1B2A;
+}
+
+.proj {
+    margin: 8px 4px;
+    padding: 20px 15px;
+    border-radius: 2px;
+    box-shadow: 0px 1px 2px 1px rgba(55, 62, 78, 0.4);
+    background-color: #F2FAFF;
+}
+
+.width90 {
+    width: 95%;
+    margin: 0 auto;
+}
 
 
 a {
@@ -46,11 +78,10 @@ ul {
 }
 
 h1, h2, h3, h4 {
-    text-align: center;
     font-family: dosis;
     font-weight: bold;
+    color: #CED3DC;
 }
-
 
 body {
     display: flex;
@@ -73,4 +104,8 @@ main {
     padding: 30px 0;
     margin: 0 auto;
     width: 90%;
+}
+
+.large {
+    font-size: 55px;
 }
